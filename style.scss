@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+._container {
+  height: 100vh;
+}
+
+.header {
+  height: 10%;
+  border: 1px solid #fff;
+  margin-left: 40px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__nav_list {
+    margin-right: 40px;
+    display: flex;
+    justify-content: start;
+    gap: 25px;
+  }
+}
+
+.main {
+  height: 80%;
+  border: 1px solid green;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.footer {
+  height: 10%;
+  border: 1px solid #fff;
+}
